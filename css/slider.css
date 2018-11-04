@@ -13,7 +13,7 @@
 }
 
 .slider input {
-  display: none;
+	display: none;
 }
 
 input[type="radio"]:nth-of-type(1):checked ~ .slider__controls .slider__control:nth-of-type(1),
@@ -25,27 +25,27 @@ input[type="radio"]:nth-of-type(3):checked ~ .slider__controls .slider__control:
 input[type="radio"]:nth-of-type(1):checked ~ .slider__items .slider__item:nth-of-type(1),
 input[type="radio"]:nth-of-type(2):checked ~ .slider__items .slider__item:nth-of-type(2),
 input[type="radio"]:nth-of-type(3):checked ~ .slider__items .slider__item:nth-of-type(3) {
-  display: block;
+	display: block;
 }
 
-.slider__item {
+.slider_item {
 	padding: 0 150px;
 	display: none;
 }
 
-.slider__item p {
+.slider_item p {
 	margin-top: 12px;
 	letter-spacing: 0.1px;
 }
 
-.slider__post {
+.slider_post {
 	margin-bottom: 15px;
 	font-size: 20px;
 	line-height: 30px;	
 	font-weight: 300;
 }
 
-.slider__author {
+.slider_author {
 	position: absolute;
 		bottom: -35px;	
 		right: 540px;
@@ -57,7 +57,7 @@ input[type="radio"]:nth-of-type(3):checked ~ .slider__items .slider__item:nth-of
 	font-style: normal;
 }
 
-.slider__controls {
+.slider_controls {
 	position: absolute;
 		bottom: -34px;	
 		right: 522px;
@@ -73,7 +73,7 @@ input[type="radio"]:nth-of-type(3):checked ~ .slider__items .slider__item:nth-of
 	border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.slider__control {
+.slider_control {
 	width: 8px;
 	height: 8px;
 	margin: 0 6px;
@@ -84,6 +84,6 @@ input[type="radio"]:nth-of-type(3):checked ~ .slider__items .slider__item:nth-of
 	transition: background-color 150ms ease-out;
 }
 
-.slider__control:hover {
+.slider_control:hover {
 	background-color: white;
 }

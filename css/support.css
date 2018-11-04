@@ -2,52 +2,52 @@
 	margin-bottom: 95px;
 }
 
-.support__items {
+.support_items {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	text-align: center;
 }
 
-.support__item {
+.support_item {
 	width: 225px;
 }
 
-.support__icon {
+.support_icon {
 	width: 60px;
 	height: 60px;
 	margin: 0 auto;
 	border-radius: 50%;
 }
 
-.support__icon .fa {
+.support_icon .fa {
 	font-size: 28px;
 	line-height: 20px;
 	color: white;
 }
 
-.support__icon.icon1 {
+.support_icon.icon1 {
 	background-color: #f1c40f;
 }
 
-.support__icon.icon2 {
+.support_icon.icon2 {
 	background-color: #0faff1;
 }
 
-.support__icon.icon3 {
+.support_icon.icon3 {
 	background-color: #95a5a6;
 }
 
-.support__icon.icon4 {
+.support_icon.icon4 {
 	background-color: #f1540f;
 }
 
-.support__icon .fa {
+.support_icon .fa {
 	position: relative;
 	top: 18px;
 }
 
-.support__title {
+.support_title {
 	margin-top: 19px;
 	margin-bottom: 7px;
 	font-size: 18px;
@@ -56,7 +56,7 @@
 	color: #303030;
 }
 
-.support__description {
+.support_description {
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 300;
