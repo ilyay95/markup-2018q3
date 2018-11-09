@@ -1,0 +1,211 @@
+.domain {
+	margin-bottom: 91px;
+}
+
+.domain_header {
+	margin-bottom: 49px;
+	text-align: center;
+}
+
+.domain_heading {
+	margin-bottom: 27px;
+	color: #383737;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.domain_text {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 100;
+	color: #a2a2a2;
+}
+
+.domain_form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 890px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	border: 1px solid var(--black-15);
+}
+
+.domain_input {
+	width: 730px;
+	padding: 15px;
+	border: 0;
+	font-size: 15px;
+	font-weight: 500;
+	background-color: transparent;
+	color: #868686;
+}
+
+.domain_input:focus {
+	border: 0;
+	outline: 0;
+	background-color: #39d083;
+	color: white;
+}
+
+.domain_input:focus::-webkit-input-placeholder {
+	color: white;
+}
+
+.domain_input:focus:-ms-input-placeholder {
+	color: white;
+}
+
+.domain_input:focus::-ms-input-placeholder {
+	color: white;
+}
+
+.domain_input:focus::placeholder {
+	color: white;
+}
+
+.domain_label {
+	margin: 5px 0;
+	padding: 8px 15px;
+	font-size: 16px;
+	line-height: 16px;
+	background-color: transparent;
+	color: #cbcbcb;
+	border-right: 1px solid #d9d9d9;
+}
+
+.domain_select-wrapper {
+	position: relative;
+	margin: 8px 0;
+	padding: 6px 15px;
+ 		height: 32px;
+		width: 85px;
+		overflow: hidden;
+	background-color: transparent;
+	border-left: 1px solid #d9d9d9;
+	cursor: pointer;
+}
+
+.domain_select-wrapper::after {
+	display: block;
+	position: absolute;
+	font-family: "FontAwesome";
+	content: '\f107';
+	font-size: 14px;
+	color: #cbcbcb;
+	width: 10px;
+	height: 10px;
+	right: 15px;
+	top: 10px;
+}
+
+.domain_select {
+	position: relative;
+	margin: 0 auto;
+	height: 20px;
+  	width: 54px;
+  	-webkit-box-shadow: none;
+          box-shadow: none;
+  	background: transparent;
+  	background-image: none;
+  	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: none;
+	font-size: 16px;
+	color: #cbcbcb;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.domain_select:focus,
+.domain_select:active {
+	border: none;
+	border-radius: 0;
+	outline: 0;
+	background-color: transparent;
+	color: #383737;
+}
+
+.domain_table {
+	position: relative;
+	width: 890px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	line-height: 110%;
+	text-transform: capitalize;
+	color: #cbcbcb;
+	border-collapse: collapse;
+}
+
+.domain_table td,
+.domain_table th {
+	position: relative;
+	padding: 40px 0;
+	width: 25%;
+	border: 1px solid #d9d9d9; 
+}
+
+.domain_table tr:first-child th::before {
+	position: absolute;
+	content: "";
+	width: 11.36%;
+	height: 100%;
+	display: block;
+	bottom: -50%;
+	left: 0.1%;
+	background-color: white;
+}
+
+.domain_table tr:first-child td:last-child::after {
+	position: absolute;
+	content: "";
+	width: 11.36%;
+	height: 100%;
+	display: block;
+	top: 50%;
+	left: 88.54%;
+	background-color: white;
+}
+
+.domain_table tr:first-child td::after {
+	position: absolute;
+	content: "";
+	width: 13px;
+	height: 13px;
+	display: block;
+	top: 89px;
+	left: -8px;
+	background-color: white;
+}
+
+.domain_table tr:first-child td::before {
+	position: absolute;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: block;
+	top: 0px;
+	left: -8px;
+	background-color: white;
+}
+
+.domain_table tr:last-child td::after {
+	position: absolute;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: block;
+	bottom: 0px;
+	left: -8px;
+	background-color: white;
+}
